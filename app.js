@@ -15,4 +15,3 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1Ijoibm96aWhvIiwiYSI6ImNreGlwc2w4ZTR1aXEydW8xcDFyb2VhMWQifQ.vCBIoZCMUt_D2YYOKFP5XA'
 }).addTo(map);
 
-containerMap = map;
