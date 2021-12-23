@@ -34,8 +34,9 @@ header {
 }
 
 #containerMap {
+    margin-inline: 1rem;
     width: 55%;
-    height: 50rem;
+    height: auto;
     border-radius: 12px;
     margin-top: 5%;
     background: #222222;
@@ -43,4 +44,26 @@ header {
 
 #map {
     height: 60vh;
+}
+
+@media screen and (max-width: 780px ) {
+    #containerMap {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #containerMap {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #containerMap {
+        width: 100%;
+    }
+
+    #map {
+        height: 40vh;
+    }
 }
